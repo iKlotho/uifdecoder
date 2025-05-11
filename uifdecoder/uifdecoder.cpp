@@ -4,8 +4,6 @@
 #include <string>
 #include <filesystem>
 
-using namespace std::filesystem;
-
 HCRYPTPROV hCryptProv = NULL;
 HCRYPTKEY hKey = NULL;
 HCRYPTHASH hHash = NULL;
